@@ -1,0 +1,489 @@
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Portfolio
+    </title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .font-mochiy {
+            font-family: "Mochiy Pop P One", serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800">
+    <!-- navbar -->
+    <header class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-6">
+        <div class="flex-1 flex justify-between items-center">
+            <div class="flex items-center justify-center">
+                <div class="w-10 h-10 bg-blue-600 rounded-full">
+                </div>
+                <span class="ml-3 font-medium text-[#2A258B] font-mochiy text-base">
+                    hanaarf
+                </span>
+            </div>
+        </div>
+
+        <label for="menu-toggle" class="pointer-cursor md:hidden block">
+            <svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                viewBox="0 0 20 20">
+                <title>menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+        </label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+
+        <div class="hidden md:flex md:items-center md:w-auto w-full pt-2" id="menu">
+            <nav>
+                <ul class="md:flex items-center justify-between text-sm text-[#9695AF] pt-4 md:pt-0">
+                    <li><a class="nav-link md:px-6 py-3 px-0 block font-semibold hover:text-[#021638]"
+                            href="#home">Home</a>
+                    </li>
+                    <li><a class="nav-link md:px-6 py-3 px-0 block font-semibold hover:text-[#021638]" href="#skill">My
+                            Skill</a></li>
+                    <li><a class="nav-link md:px-6 py-3 px-0 block font-semibold hover:text-[#021638]"
+                            href="#project">My
+                            Project</a></li>
+                    <li><a class="nav-link md:px-6 py-3 px-0 block md:mb-0 mb-2 font-semibold hover:text-[#021638]"
+                            href="#certificate">Certification</a></li>
+                </ul>
+            </nav>
+            <a  href="#contact" id="contactBtn"
+                class="px-4 py-3 bg-[#021638] text-white rounded-full font-medium transition duration-300 text-sm">
+                Contact Me
+            </a>
+        </div>
+    </header>
+
+    <!-- home -->
+    <section id="home">
+        <main class="flex flex-col-reverse lg:flex-row items-center justify-between px-6 lg:px-24 py-16 lg:py-24">
+            <div class="lg:w-1/2">
+                <h1 class="text-4xl lg:text-6xl font-bold text-black pt-6">
+                    Hi, i am
+                </h1>
+                <h2 class="text-4xl lg:text-6xl font-bold text-blue-600 mt-2 leading-normal">
+                    hana aulia
+                </h2>
+                <p class="mt-4 text-[#9695AF] font-regular">
+                    Has passion and expertise in the field of front end development. Have soft skill such as problem
+                    solving
+                    and teamwork. Always follow technological developments. And have interest in the field of UI/UX
+                    design.
+                </p>
+                <div class="mt-6 flex space-x-4">
+                    <a class="px-6 py-2 bg-[#021638] text-white rounded-full font-medium transition duration-300 hover:bg-[#0439a0]"
+                        href="#">
+                        Hire Me
+                    </a>
+                    <a class="px-3 py-2 border-2 border-[#9695AF] text-[#021638] rounded-full font-medium transition duration-300 hover:bg-[#9695AF] hover:text-white"
+                        href="#">
+                        Download CV
+                    </a>
+
+                </div>
+            </div>
+            <div class="lg:w-1/2 flex justify-center lg:justify-end relative">
+                <img alt="A person thinking with a hand on the chin, surrounded by colorful abstract shapes"
+                    class="relative z-10" height="400" src="Group 25.png" width="400" />
+            </div>
+        </main>
+        <div>
+            <div class="text-center py-6 text-[#D2D1DA] text-base">
+                work for this brand and client
+            </div>
+            <div class="flex flex-wrap justify-center items-center gap-16 md:gap-24 lg:gap-24">
+                <img class="w-20 md:w-22 lg:w-24 object-contain" src="portofolio/apple-11 1.png" alt="">
+                <img class="w-20 md:w-22 lg:w-24 object-contain" src="portofolio/google-2015 1.png" alt="">
+                <img class="w-20 md:w-22 lg:w-24 object-contain" src="portofolio/Group 13.png" alt="">
+                <img class="w-20 md:w-22 lg:w-24 object-contain" src="portofolio/slack-2 1.png" alt="">
+                <img class="w-20 md:w-22 lg:w-24 object-contain" src="portofolio/spotify-1 1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- skill -->
+    <section id="skill" class="py-16 my-16 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-center gap-12">
+        <div class="bg-[#ABBFFF] p-6 rounded-2xl shadow-lg w-full lg:w-2/5 relative">
+            <div class="overflow-hidden h-120">
+                <div id="slider" class="flex transition-transform duration-300">
+                    <!-- Items will be dynamically inserted here -->
+                </div>
+            </div>
+            <div id="pagination" class="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                <!-- Bullets will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <div class="lg:w-1/2">
+            <h1 class="text-4xl lg:text-5xl font-bold text-black pt-6">
+                My skill &
+            </h1>
+            <h2 class="text-4xl lg:text-5xl font-bold text-blue-600 mt-2 leading-normal">
+                Expertise
+            </h2>
+            <p class="mt-4 text-[#9695AF] font-regular">
+                Has passion and expertise in the field of front end development. Have soft skill such as problem
+                solving
+                and teamwork. Always follow technological developments. And have interest in the field of UI/UX
+                design.
+            </p>
+            <div class="mt-6 flex space-x-4">
+                <a class="px-3 py-2 border-2 border-[#9695AF] text-[#021638] rounded-full font-medium transition duration-300 hover:bg-[#9695AF] hover:text-white"
+                    href="#">
+                    See More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- project -->
+    <section id="project">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="text-4xl lg:text-5xl font-bold text-[#021638] pt-6">
+                    My <span class="text-[#3C68FF]">Project</span>
+                </h1>
+            </div>
+            <div class="flex flex-wrap -m-4 px-4 lg:px-6">
+                <div class="xl:w-1/3 md:w-1/2 w-full p-4" data-aos="fade-up-left" data-aos-delay="500">
+                    <a href="https://vigowebs.gumroad.com/l/cabvqy">
+                        <div class="bg-white shadow-[0px_4px_10px_rgba(138,134,134,0.25)] bg-opacity-40 p-6 rounded-xl">
+                            <img class="h-36 rounded-2xl w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                src="https://cdn.dribbble.com/userupload/13312688/file/original-d92951d609a9587a8506d0554c5026e2.png?resize=2400x1800&vertical=center"
+                                alt="content">
+                            <h2 class="text-center text-[#1A1A1A] font-semibold text-lg leading-relaxed">Website with
+                                React js</h2>
+                            <p class="text-center text-[#9695AF] text-sm">Has passion and expertise in the field of</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 w-full p-4" data-aos="fade-up-left" data-aos-delay="500">
+                    <a href="https://vigowebs.gumroad.com/l/shoppr-flutter">
+                        <div class="bg-white shadow-[0px_4px_10px_rgba(138,134,134,0.25)] bg-opacity-40 p-6 rounded-xl">
+                            <img class="h-36 rounded-2xl w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                src="https://cdn.dribbble.com/userupload/17125922/file/original-b2d582aed681b63d582da58a864e1dde.png?resize=1504x1128&vertical=center"
+                                alt="content">
+                            <h2 class="text-center text-[#1A1A1A] font-semibold text-lg leading-relaxed">Website with
+                                React js</h2>
+                            <p class="text-center text-[#9695AF] text-sm">Has passion and expertise in the field of</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 w-full p-4" data-aos="fade-up-left" data-aos-delay="500">
+                    <a href="https://vigowebs.gumroad.com/l/meenu">
+                        <div class="bg-white shadow-[0px_4px_10px_rgba(138,134,134,0.25)] bg-opacity-40 p-6 rounded-xl">
+                            <img class="h-36 rounded-2xl w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                src="https://cdn.dribbble.com/userupload/23420867/file/original-cf1bbabf53c6774623ae53286c8bd15a.png?resize=2400x1800&vertical=center"
+                                alt="content">
+                            <h2 class="text-center text-[#1A1A1A] font-semibold text-lg leading-relaxed">Website with
+                                React js</h2>
+                            <p class="text-center text-[#9695AF] text-sm">Has passion and expertise in the field of</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 w-full p-4" data-aos="fade-up-left" data-aos-delay="500">
+                    <a href="https://vigowebs.gumroad.com/l/cabvqy">
+                        <div class="bg-white shadow-[0px_4px_10px_rgba(138,134,134,0.25)] bg-opacity-40 p-6 rounded-xl">
+                            <img class="h-36 rounded-2xl w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                src="https://cdn.dribbble.com/userupload/13312688/file/original-d92951d609a9587a8506d0554c5026e2.png?resize=2400x1800&vertical=center"
+                                alt="content">
+                            <h2 class="text-center text-[#1A1A1A] font-semibold text-lg leading-relaxed">Website with
+                                React js</h2>
+                            <p class="text-center text-[#9695AF] text-sm">Has passion and expertise in the field of</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 w-full p-4" data-aos="fade-up-left" data-aos-delay="500">
+                    <a href="https://vigowebs.gumroad.com/l/shoppr-flutter">
+                        <div class="bg-white shadow-[0px_4px_10px_rgba(138,134,134,0.25)] bg-opacity-40 p-6 rounded-xl">
+                            <img class="h-36 rounded-2xl w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                src="https://cdn.dribbble.com/userupload/17125922/file/original-b2d582aed681b63d582da58a864e1dde.png?resize=1504x1128&vertical=center"
+                                alt="content">
+                            <h2 class="text-center text-[#1A1A1A] font-semibold text-lg leading-relaxed">Website with
+                                React js</h2>
+                            <p class="text-center text-[#9695AF] text-sm">Has passion and expertise in the field of</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 w-full p-4" data-aos="fade-up-left" data-aos-delay="500">
+                    <a href="https://vigowebs.gumroad.com/l/meenu">
+                        <div class="bg-white shadow-[0px_4px_10px_rgba(138,134,134,0.25)] bg-opacity-40 p-6 rounded-xl">
+                            <img class="h-36 rounded-2xl w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                src="https://cdn.dribbble.com/userupload/23420867/file/original-cf1bbabf53c6774623ae53286c8bd15a.png?resize=2400x1800&vertical=center"
+                                alt="content">
+                            <h2 class="text-center text-[#1A1A1A] font-semibold text-lg leading-relaxed">Website with
+                                React js</h2>
+                            <p class="text-center text-[#9695AF] text-sm">Has passion and expertise in the field of</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- certificate -->
+    <section id="certificate" class="career container py-12">
+        <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="text-3xl lg:text-5xl font-bold text-[#021638] pt-10 px-12">
+                Certification</span>
+            </h1>
+        </div>
+        <div class="flex flex-wrap items-center mb-16">
+            <div class="w-full md:w-1/2 flex justify-end">
+                <img src="cert1.svg" alt="Career 1" class="w-full md:w-auto h-auto">
+            </div>
+            <div class="w-full md:w-1/2 flex items-center">
+                <div class="text-left">
+                    <span class="text-gray-500 font-semibold">From dicoding</span>
+                    <h3 class="text-3xl font-semibold">Certification Database</h3>
+                    <p class="text-gray-700 mt-4">We do really care about our students' future career <br> so it would
+                        be good if you are taking a quick interview</p>
+                    <a href="#"
+                        class="mt-4 inline-block px-6 py-2 text-white rounded-full font-regular transition duration-300 bg-[#021638] hover:bg-[#0439a0]">Download</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap items-center mb-16">
+            <div class="w-full md:w-1/2 flex items-center justify-center">
+                <div class="text-left">
+                    <span class="text-gray-500 font-semibold">From dicoding</span>
+                    <h3 class="text-3xl font-semibold">Certification Web Design</h3>
+                    <p class="text-gray-700 mt-4">Each of you will be joining the private group and also <br> working
+                        together with team members on a project</p>
+                    <a href="#"
+                        class="mt-4 inline-block px-6 py-2 text-white rounded-full font-regular transition duration-300 bg-[#021638] hover:bg-[#0439a0]">Download</a>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 flex justify-center">
+                <img src="cert2.svg" alt="Career 2" class="w-full md:w-auto h-auto">
+            </div>
+        </div>
+
+        <div class="flex flex-wrap items-center">
+            <div class="w-full md:w-1/2 flex justify-end">
+                <img src="cert1.svg" alt="Career 3" class="w-full md:w-auto h-auto">
+            </div>
+            <div class="w-full md:w-1/2 flex items-center">
+                <div class="text-left">
+                    <span class="text-gray-500 font-semibold">From dicoding</span>
+                    <h3 class="text-3xl font-semibold">Certification Database</h3>
+                    <p class="text-gray-700 mt-4">Learn how to speak in public to demonstrate your <br> final project
+                        and receive important feedback</p>
+                    <a href="#"
+                        class="mt-4 inline-block px-6 py-2 text-white rounded-full font-regular transition duration-300 bg-[#021638] hover:bg-[#0439a0]">Download</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact me -->
+    <section id="contact">
+        <div class="w-full lg:px-34 px-6 py-22 bg-white rounded-lg">
+            <h1 class="text-4xl font-bold text-center mb-2">
+                Contact <span class="text-blue-500">Me</span>
+            </h1>
+            <p class="text-center text-gray-600 mb-8">
+                Each of you will be joining the private group and also working together
+            </p>
+            <form class="space-y-6 bg-[#D1DCFF] p-12 rounded-2xl">
+                <div class="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
+                    <div class="flex-1">
+                        <label for="name" class="block text-gray-700">Name</label>
+                        <input type="text" id="name"
+                            class="w-full p-3 mt-1 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="flex-1">
+                        <label for="email" class="block text-gray-700">Email</label>
+                        <input type="email" id="email"
+                            class="w-full p-3 mt-1 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                </div>
+                <div>
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" rows="6"
+                        class="w-full p-3 mt-1 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit"
+                        class="px-6 py-3 mt-3 bg-black text-white rounded-3xl hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p class="text-center py-10">@All Rights Reserved. Copyright hanatechzone  Indonesia.</p>
+    </footer>
+
+    <!-- js -->
+    <script>
+        // hamburger
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.getElementById("menu-toggle");
+            const menu = document.getElementById("menu");
+
+            menuToggle.addEventListener("change", function () {
+                if (menuToggle.checked) {
+                    menu.classList.remove("hidden");
+                } else {
+                    menu.classList.add("hidden");
+                }
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll(".nav-link");
+            const contactBtn = document.getElementById("contactBtn");
+
+            // Fungsi untuk menghapus class active dari semua elemen
+            function resetActive() {
+                navLinks.forEach(nav => nav.classList.remove("text-[#021638]"));
+                contactBtn.classList.remove("opacity-70");
+            }
+
+            // Event listener untuk setiap menu navigasi
+            navLinks.forEach(link => {
+                link.addEventListener("click", function () {
+                    resetActive(); // Reset semua elemen ke default
+                    this.classList.add(
+                        "text-[#021638]"); // Tambahkan active ke menu yang diklik
+                });
+            });
+
+            // Event listener untuk tombol Contact Me
+            contactBtn.addEventListener("click", function (event) {
+                event.preventDefault(); // Mencegah link berpindah halaman jika ada href
+                resetActive(); // Reset semua elemen ke default
+                this.classList.add("opacity-70"); // Tambahkan efek opacity
+
+                // Mengembalikan opacity setelah 1 detik (opsional)
+                setTimeout(() => {
+                    this.classList.remove("opacity-70");
+                }, 1000);
+            });
+        });
+
+        // slider
+        document.addEventListener("DOMContentLoaded", function () {
+            const skills = [{
+                    name: "HTML",
+                    img: "https://cdn-icons-png.flaticon.com/512/732/732212.png"
+                },
+                {
+                    name: "CSS",
+                    img: "https://cdn-icons-png.flaticon.com/512/732/732190.png"
+                },
+                {
+                    name: "JS",
+                    img: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+                },
+                {
+                    name: "React",
+                    img: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png"
+                },
+                {
+                    name: "Vue",
+                    img: "https://cdn-icons-png.flaticon.com/512/5968/5968342.png"
+                },
+                {
+                    name: "Angular",
+                    img: "https://cdn-icons-png.flaticon.com/512/5968/5968272.png"
+                },
+                {
+                    name: "Svelte",
+                    img: "https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
+                },
+                {
+                    name: "Node.js",
+                    img: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png"
+                }
+            ];
+
+            const slider = document.getElementById("slider");
+            const pagination = document.getElementById("pagination");
+            const itemsPerPage = 3;
+            const totalPages = Math.ceil(skills.length / itemsPerPage);
+            let currentPage = 0;
+
+            function renderSlides() {
+                slider.innerHTML = "";
+                pagination.innerHTML = "";
+
+                for (let i = 0; i < totalPages; i++) {
+                    let slide = document.createElement("div");
+                    slide.classList.add("flex", "flex-col", "space-y-6", "snap-y", "snap-mandatory", "shrink-0",
+                        "w-full");
+                    slide.dataset.index = i;
+
+                    let start = i * itemsPerPage;
+                    let end = start + itemsPerPage;
+                    let items = skills.slice(start, end);
+
+                    items.forEach(skill => {
+                        let item = document.createElement("div");
+                        item.classList.add("flex", "items-center", "bg-transparent", "p-4",
+                            "rounded-xl", "snap-start", "transition-all", "duration-300",
+                            "hover:bg-gradient-to-r", "from-[#3D6AFF]", "to-[#FFE7BD]");
+                        item.innerHTML = `
+                            <div class="flex items-center bg-white p-4 rounded-xl shadow-md snap-start transition-all duration-300">
+                                <img src="${skill.img}" class="w-12 h-12 rounded-full bg-[#3C68FF] p-2">
+                                <div class="ml-4">
+                                    <h3 class="text-lg font-semibold">${skill.name}</h3>
+                                    <p class="text-gray-500 text-sm">Has passion and expertise in front-end development</p>
+                                </div>
+                            </div>
+                        `;
+                        slide.appendChild(item);
+                    });
+                    slider.appendChild(slide);
+                }
+            }
+
+            function renderPagination() {
+                for (let i = 0; i < totalPages; i++) {
+                    let bullet = document.createElement("span");
+                    bullet.classList.add("w-3", "h-3", "bg-gray-300", "rounded-full", "cursor-pointer");
+                    bullet.dataset.index = i;
+                    bullet.addEventListener("click", function () {
+                        currentPage = parseInt(this.dataset.index);
+                        updateSlider();
+                    });
+                    pagination.appendChild(bullet);
+                }
+            }
+
+            function updateSlider() {
+                slider.style.transform = `translateX(-${currentPage * 100}%)`;
+                document.querySelectorAll("#pagination span").forEach((bullet, index) => {
+                    bullet.classList.toggle("bg-gray-400", index === currentPage);
+                });
+            }
+
+            renderSlides();
+            renderPagination();
+            updateSlider();
+        });
+    </script>
+</body>
+
+</html>
